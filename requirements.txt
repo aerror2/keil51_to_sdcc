@@ -1,0 +1,15 @@
+# Requirements for convert_keil51_to_sdcc.py
+# Keil C51 to SDCC converter dependencies
+
+# Character encoding detection library
+# Used for detecting and handling various file encodings (UTF-8, GBK, GB2312, etc.)
+chardet>=5.0.0
+
+# Note: Other imports are Python standard library modules:
+# - re: Regular expressions
+# - sys: System-specific parameters and functions
+# - os: Operating system interface
+# - argparse: Command-line argument parsing
+# - glob: Unix shell-style pathname pattern expansion
+# - pathlib: Object-oriented filesystem paths
+# - codecs: Codec registry and base classes
